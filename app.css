@@ -1,0 +1,148 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#main{
+    width: 100%;
+    min-height: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    background: url("https://images.unsplash.com/photo-1543663252-de9c18918fef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+#form-container{
+    max-width: 550px;
+    min-height: auto;
+    background-color: white;
+    margin: 20px auto 0px auto;
+    border-radius: 4px;
+    padding: 10px 0px 10px 0px; 
+}
+
+#title{
+    text-align: center;
+    padding: 50px 0px 0px 0px;
+}
+
+#description{
+    text-align: center;
+    padding: 5px;
+}
+
+#survey-form{
+  padding: 10px 10px 5px 30px;
+}
+
+#form-group label{
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.25rem;
+}
+
+#form-group input{
+    width: 95%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddc9ff;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-weight: 300px;
+    margin-bottom: 10px;
+}
+
+#dropdown{
+    width: 94%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddc9ff;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-weight: 300px;
+    margin-bottom: 10px;
+}
+
+#form-group input[type=text]:focus,
+#form-group input[type=email]:focus,
+#form-group input[type=number]:focus,
+#dropdown:focus,
+#textarea:focus{
+    outline: none;
+    border-color:#decefc ;
+    border-width: 2px;
+}
+
+#form-group input[type=text]:hover,
+#form-group input[type=email]:hover,
+#form-group input[type=number]:hover,
+#dropdown:hover,
+#textarea:hover{
+    box-shadow: 0 0 6px #b689ff;
+}
+
+#form-group{
+  margin:0 auto 1.25px auto ;
+  padding: 0.25rem; 
+}
+
+ #form-group p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.50rem;
+ }
+
+ #form-group-radio label{
+    margin-right: 0.50rem;
+ }
+
+ #form-group-radio{
+     padding-left: 6px ;
+ }
+
+#form-group-radio input{
+   display: inline-block;
+   margin-bottom: 1.25rem;
+   margin-top: 1rem;
+}
+
+#form-group-radio p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.50rem;
+}
+
+#textarea{
+    width: 90%;
+    height: 120px;
+    border: 1px solid #ddc9ff;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    font-weight: 300px;
+    padding: 10px;
+}
+
+#submit{
+    background-color: #ddc9ff ;
+    width: 95%;
+    padding: 10px;
+    border-radius: 2px;
+    font-size: 0.8rem;
+    font-weight: 300px;
+}
+
+
+@media(min-width: 300px)
+{
+    #form-container{
+        width: 98%;
+        min-height: 90%;
+    
+    }
+}
